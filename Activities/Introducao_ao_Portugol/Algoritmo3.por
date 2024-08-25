@@ -1,5 +1,5 @@
-// Exercício: Construa um algoritmo que receba o nome do aluno, do curso e do professor.
-/* E ao final deve mostrar como no exemplo abaixo, cada um em uma linha:
+/* Exercício: Construa um algoritmo que receba o nome do aluno, do curso e do professor.
+E ao final deve mostrar como no exemplo abaixo, cada um em uma linha:
 Aluno: Miguel Santana
 Curso: Lógica de programação
 Professor: Guibson Santana */
