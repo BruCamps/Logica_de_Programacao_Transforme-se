@@ -8,7 +8,7 @@ programa {
     leia(idade)
     maior = idade
     
-    para(i=1; i < 4; i++){
+    para(i = 1; i < 4; i++){
       escreva("Pessoa ", i+1, " - Digite sua idade: ")
       leia(idade)
       
