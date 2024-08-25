@@ -1,8 +1,8 @@
-// Exercício: Faça um programa que deverá permitir que o usuário entre com os valores dos elementos de uma matriz quadrada 
-// de ordem 4 e possibilite o usuário realizar as seguintes funcionalidades: 
-// 1 - Imprimir os elementos da matriz da terceira linha.
-// 2 - Somar todos os elementos da terceira linha.
-// 3 - Mostre o resultado na tela.
+/* Exercício: Faça um programa que deverá permitir que o usuário entre com os valores dos elementos de uma matriz quadrada 
+de ordem 4 e possibilite o usuário realizar as seguintes funcionalidades: 
+1 - Imprimir os elementos da matriz da terceira linha.
+2 - Somar todos os elementos da terceira linha.
+3 - Mostre o resultado na tela. */
 
 programa {
   funcao inicio() {
