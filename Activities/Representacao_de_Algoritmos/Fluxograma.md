@@ -1,6 +1,6 @@
 # Fluxograma
 
-### Organize o seu caminho de casa até a instituição em uma sequência lógica.
+### Exercício: Organize o seu caminho de casa até a instituição em uma sequência lógica.
 ### Faça uma representação através de um fluxograma.
 
 <br>
