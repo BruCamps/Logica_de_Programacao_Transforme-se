@@ -1,5 +1,5 @@
-// Exercício: Construa um algoritmo que receba seu nome, sua idade e ao final mostre a conforme a seguinte frase de exemplo: 
-// Rafael possui 37 anos de idade 
+/* Exercício: Construa um algoritmo que receba seu nome, sua idade e ao final mostre a conforme a seguinte frase de exemplo: 
+Rafael possui 37 anos de idade */
 
 programa {
   funcao inicio() {
