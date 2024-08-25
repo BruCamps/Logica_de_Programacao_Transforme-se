@@ -1,6 +1,6 @@
-// Exercício: Construa um algoritmo que receba em uma variável seu primeiro nome e em outra variável seu ultimo nome. 
-// No final o algoritmo deve mostrar: Aluno + Seu Primeiro Nome + Seu Ultimo Nome, conforme o exemplo:
-// Aluno Gabriel Santana
+/* Exercício: Construa um algoritmo que receba em uma variável seu primeiro nome e em outra variável seu ultimo nome. 
+No final o algoritmo deve mostrar: Aluno + Seu Primeiro Nome + Seu Ultimo Nome, conforme o exemplo:
+Aluno Gabriel Santana */
 
 programa {
   funcao inicio() {
