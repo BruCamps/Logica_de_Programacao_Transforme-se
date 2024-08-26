@@ -23,7 +23,7 @@ Neste curso utilizamos o **Portugol** para entender e colocar em prática concei
 
 
 <div style="display: flex;">
-    <img src="./Images/simbolo-portugol.png" alt="" width="50" height="50" align="center"/><p style="font-size: 26px;">Portugol</p>
+    <img src="./Images/simbolo-portugol.png" alt="" width="50" height="50" align="center"/><span style="font-size: 60px;">Portugol</span>
 </div>
 
 <br>
