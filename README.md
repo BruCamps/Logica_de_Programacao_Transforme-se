@@ -29,6 +29,7 @@ Neste curso utilizamos o **Portugol** para entender e construir algoritmos.
     <h2>Portugol</h2>
 </div>
 
+<br>
 
 É uma **linguagem de pseudocódigo** voltada para os iniciantes em programação que falam o idioma português. Possui uma sintaxe simples, mas que é bastante similar à sintaxe utilizada em muitas linguagens de programação, como C, C++, PHP e Java. 
 
@@ -45,7 +46,11 @@ E com ele é possível treinar diversos conceitos de lógica de programação, c
 <br>
 
 # Exercícios
-Se você estiver estudando Portugol e precisa praticar, confira os exercícios que há nesse repositório clicando nos links abaixo.
+Durante o curso realizamos diversos exercícios que você pode conferir clicando nos links abaixo. 
+
+> Esses links te redirecionam para as pastas. Mas caso você queira visualizar como os exercícios ficam no terminal, basta procurar o arquivo <kbd>README.md</kbd> de cada pasta.
+
+<br>
 
 | Nº |  Conteúdo  | Link
 |  --   | --         | :--: |
