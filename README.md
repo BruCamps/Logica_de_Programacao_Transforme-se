@@ -1,7 +1,17 @@
 
-# Sobre o Curso
-O curso de Lógica de Programação é um dos cursos oferecidos pelo programa [Transforme-se](https://www.serasaexperian.com.br/transforme-se/) promovido pela [Serasa Experian](https://www.serasaexperian.com.br) em parceria com a [Gerando Falcões](https://gerandofalcoes.com).
+<div style="display: flex; gap: 2rem; align-items: center;">
+    <img src="./Images/serasaexperian-logo.png" alt="" width="13%" align="center"/>
+    <img src="./Images/senac-logo.png" alt="" width="8%" align="center"/>
+    <img src="./Images/gerandofalcoes-logo.png" alt="" width="16%" align="center"/>
+    <img src="./Images/transformese-logo.png" alt="" width="500" align="center"/>
+</div>
 
+
+<br>
+<h1>Lógica de Programação | Transforme-se</h1>
+<br>
+
+O curso de Lógica de Programação é um dos cursos oferecidos pelo programa [Transforme-se](https://www.serasaexperian.com.br/transforme-se/) promovido pela [Serasa Experian](https://www.serasaexperian.com.br) em parceria com a [Gerando Falcões](https://gerandofalcoes.com) e o [SENAC](https://www.senac.br).
 
 
 > [!NOTE]
