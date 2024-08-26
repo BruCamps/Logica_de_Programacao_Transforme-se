@@ -11,60 +11,52 @@
 <h1>Lógica de Programação | Transforme-se</h1>
 <br>
 
-O curso de Lógica de Programação é um dos cursos oferecidos pelo programa [Transforme-se](https://www.serasaexperian.com.br/transforme-se/) promovido pela [Serasa Experian](https://www.serasaexperian.com.br) em parceria com a [Gerando Falcões](https://gerandofalcoes.com) e o [SENAC](https://www.senac.br).
+O curso de Lógica de Programação é um dos cursos oferecidos pelo programa **[Transforme-se](https://www.serasaexperian.com.br/transforme-se/)** promovido pela **Serasa Experian** em parceria com a **Gerando Falcões** e o **SENAC**.
 
+<br>
 
 > [!NOTE]
 Esta iniciativa é direcionada a jovens entre 18 e 29 anos em situação de vulnerabilidade social e tem como objetivo desenvolver e capacitar essas pessoas para ingressar na área de tecnologia, um setor amplamente conhecido por proporcionar excelentes oportunidades de emprego e crescimento profissional. 
 
-Neste curso utilizamos o **Portugol** para entender e colocar em prática conceitos básicos de programação. 
-
 <br>
 
+Neste curso utilizamos o **Portugol** para entender e construir algoritmos. 
+
+<br>
 
 <div style="display: flex;">
-    <img src="./Images/simbolo-portugol.png" alt="" width="50" height="50" align="center"/><span style="font-size: 60px;">Portugol</span>
+    <img src="./Images/simbolo-portugol.png" alt="" width="36" align="left"/>
+    <h2>Portugol</h2>
 </div>
 
-<br>
 
- 
-É uma linguagem de pseudocódigo voltada para os falantes de português e pode ser a ferramenta ideal para quem está dando seus primeiros passos na programação. 
+É uma **linguagem de pseudocódigo** voltada para os iniciantes em programação que falam o idioma português. Possui uma sintaxe simples, mas que é bastante similar à sintaxe utilizada em muitas linguagens de programação, como C, C++, PHP e Java. 
 
-O **Portugol** possui uma sintaxe simples, dessa forma facilitando a compreensão dos conceitos básicos de programação, oferecendo uma base sólida para quem está começando e preparando o terreno para a aprendizagem de outras linguagens de programação mais avançadas.
-
-
-Formas de programar em Portugol:
-- [Portugol Studio](https://univali-lite.github.io/Portugol-Studio/) (Desktop - Programa)
-- [Portugol Web](https://portugol.dev) (Web - Site)
-- [Portugol Mobile](https://play.google.com/store/apps/details?id=br.erickweil.portugolweb&hl=pt_BR) (Mobile - App)
+E com ele é possível treinar diversos conceitos de lógica de programação, construir algoritmos complexos e até mesmo jogos.
 
 <br>
 
-# Minhas atividades
-Se você estiver estudando Portugol e precisa praticar, confira alguns dos exercícios que há nesse repositório. 
+**Opções de ambientes para programar em Portugol**
 
-Certamente ajudará você a exercitar seus conhecimentos ou até mesmo a descobrir novos jeitos de resolver um problema. 
+|  Desktop  |  Web | App |
+| --------- | ---- | --- |
+| [![image](https://github.com/user-attachments/assets/2dcb6e4f-bdc2-4f2a-bf91-78038852b0d3)](https://univali-lite.github.io/Portugol-Studio/) | [![image](https://github.com/user-attachments/assets/081180f6-f261-41e4-8586-62e102a32cfb)](https://portugol.dev) | [![image](https://github.com/user-attachments/assets/77bf707c-50bc-41ad-9032-cc7228a148b7)](https://play.google.com/store/apps/details?id=br.erickweil.portugolweb&hl=pt_BR) |
+
+<br>
+
+# Exercícios
+Se você estiver estudando Portugol e precisa praticar, confira os exercícios que há nesse repositório clicando nos links abaixo.
 
 | Nº |  Conteúdo  | Link
-|  --   |  --         | -- |
-| 01    |  Representação de Algoritmos | [<img src="./Images/quadrado1.png" alt="" align="center"/>](./Activities/1-Representacao_de_Algoritmos) |
-| 02    |  Introdução ao Portugol | [<img src="./Images/quadrado2.png" alt="" align="center"/>](./Activities/2-Introducao_ao_Portugol) |
-| 03    |  Tomada de Decisão | [<img src="./Images/quadrado3.png" alt=""  align="center"/>](./Activities/3-Tomada_de_Decisao) |
-| 04    |  Estruturas de Repetição  | [<img src="./Images/quadrado1.png" alt="" align="center"/>](./Activities/4-Estruturas_de_Repeticao) |
-| 05    |  Vetores e Matrizes | [<img src="./Images/quadrado2.png" alt=""  align="center"/>](./Activities/5-Vetores_e_Matrizes) |
+|  --   | --         | :--: |
+| 01    |  Representação de Algoritmos | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Representacao_de_Algoritmos) |
+| 02    |  Introdução ao Portugol | [<img src="./Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Introducao_ao_Portugol) |
+| 03    |  Tomada de Decisão | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/3-Tomada_de_Decisao) |
+| 04    |  Estruturas de Repetição  | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao) |
+| 05    |  Vetores e Matrizes | [<img src="./Images/quadrado2.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/5-Vetores_e_Matrizes) |
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Contribuições são bem-vindas! 🤗
+---
+Feito com ❤ por Bruna Campos
