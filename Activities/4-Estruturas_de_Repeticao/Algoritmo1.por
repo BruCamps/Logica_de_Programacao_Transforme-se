@@ -3,7 +3,7 @@
 programa {
   funcao inicio() {
     inteiro i, idade, maior
-    escreva("\nInforme a idade de 4 pessoas e descubra qual é a mais velha\n\n")
+    escreva("\nInforme a idade de 4 pessoas e descubra qual a mais velha\n\n")
     escreva("Pessoa 1 - Digite sua idade: ")
     leia(idade)
     maior = idade
@@ -19,6 +19,6 @@ programa {
 
       limpa()
       
-      escreva("\nA idade maior é: ", maior, "\n")
+      escreva("\nQuem tem ", maior, " anos é a pessoa mais velha\n")
   }
 }
