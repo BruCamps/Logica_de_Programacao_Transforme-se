@@ -116,6 +116,11 @@ https://github.com/user-attachments/assets/861e342d-5498-467f-b314-88dd6927a8f5
 
 <br>
 
+> [!IMPORTANT]
+> Não segui a última exigência da atividade (colocar um elemento por linha) por questões de estética 
+
+<br>
+
 ## Algoritmo 4 - Vetores
 
 <details>
