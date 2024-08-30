@@ -71,6 +71,9 @@ programa {
         caso "GO":
           escreva("-> Você é goiano\n")
           pare
+        caso "DF":
+          escreva("-> Você é brasiliense"
+          pare
         caso "SP":
           escreva("-> Você é paulista\n")
           pare
