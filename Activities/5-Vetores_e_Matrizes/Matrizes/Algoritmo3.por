@@ -5,6 +5,7 @@ de ordem 4 e possibilite o usuário realizar as seguintes funcionalidades:
 3 - Mostre o resultado na tela. */
 
 programa {
+  inclua biblioteca Util --> u
   funcao inicio() {
     inteiro matriz [4][4], linha3[4]
     inteiro linha, coluna, i = 0, soma = 0
@@ -15,6 +16,17 @@ programa {
       para(coluna = 0; coluna < 4; coluna++) {
         escreva("Digite o ", i+1, "º número: ")
         leia(matriz[linha][coluna])
+
+         enquanto(matriz[linha][coluna] > 9999) { // Repetição para quando o número for maior que 9.999
+          escreva("\n[Número inválido, não é permitido números a partir de 10.000! Tente novamente.]")
+          u.aguarde(3000)
+
+          limpa()
+          
+          escreva("\nVamos construir uma matriz!\n\n")
+          escreva("Digite o ", i+1, "º número: ")
+          leia(matriz[linha][coluna])
+        }
         i++
       }
     }
@@ -25,14 +37,17 @@ programa {
     para(linha = 0; linha < 4; linha++){
       para(coluna = 0; coluna < 4; coluna++) {
 
-          linha3 = matriz[2]
-          soma = matriz[2][0] + matriz[2][1] + matriz[2][2] + matriz[2][3]
+        linha3 = matriz[2]
+        soma = matriz[2][0] + matriz[2][1] + matriz[2][2] + matriz[2][3]
 
         se(matriz[linha][coluna] < 10){ // Condicional para tabulação para números menores que 10 (Opcional)
           escreva("|\t\t0", matriz[linha][coluna], "\t\t")
         } 
-        senao{ // Tabulação para qualquer número maior que 10 (Opcional)
+        senao se(matriz[linha][coluna] >= 10 e matriz[linha][coluna] < 1000){ // Tabulação para qualquer número maior que 10 (Opcional)
           escreva("|\t\t", matriz[linha][coluna], "\t\t")
+        } 
+        senao {
+          escreva("|\t\t", matriz[linha][coluna], "\t")
         }
       }
       escreva("|\n")
