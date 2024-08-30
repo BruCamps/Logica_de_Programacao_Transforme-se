@@ -14,7 +14,7 @@
 
 https://github.com/user-attachments/assets/6f32cff9-3b3c-4b43-a06d-ce553de36d21
 
-> Clique aqui para visualizar o [código-fonte](./4-Estruturas_de_Repeticao/Algoritmo1.por)
+> Clique aqui para visualizar o [código-fonte](./Algoritmo1.por)
 
 <br>
 
@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/6f32cff9-3b3c-4b43-a06d-ce553de36d21
 
 https://github.com/user-attachments/assets/5dedafff-06e3-4269-be25-d4fbeca1f785
 
-> Clique aqui para visualizar o [código-fonte](./4-Estruturas_de_Repeticao/Algoritmo2.por)
+> Clique aqui para visualizar o [código-fonte](./Algoritmo2.por)
 
 <br>
 
