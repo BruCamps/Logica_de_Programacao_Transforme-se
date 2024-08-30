@@ -48,7 +48,7 @@ E com ele é possível treinar diversos conceitos de lógica de programação, c
 # Exercícios
 Durante o curso realizamos diversos exercícios que você pode conferir clicando nos links abaixo. 
 
-> Esses links te redirecionam para as pastas. Mas caso você queira visualizar como os exercícios ficam no terminal, basta procurar o arquivo <kbd>README.md</kbd> de cada pasta.
+> Esses links te redirecionam para as pastas. Mas caso você queira visualizar como os exercícios ficam no terminal, basta procurar o arquivo **`README.md`** de cada pasta.
 
 <br>
 
