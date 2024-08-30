@@ -1,4 +1,4 @@
-# # Visualização das Atividades
+# Visualização das Atividades
 > Pré-visualização das atividades feitas em Portugol
 
 <br>
