@@ -16,11 +16,11 @@ O curso de Lógica de Programação é um dos cursos oferecidos pelo programa **
 <br>
 
 > [!NOTE]
-Esta iniciativa é direcionada a jovens entre 18 e 29 anos em situação de vulnerabilidade social e tem como objetivo desenvolver e capacitar essas pessoas para ingressar na área de tecnologia, um setor amplamente conhecido por proporcionar excelentes oportunidades de emprego e crescimento profissional. 
+Esta iniciativa é direcionada a jovens entre 18 e 29 anos em situação de vulnerabilidade social, e tem como objetivo desenvolver e capacitar essas pessoas para ingressar na área de tecnologia, um setor amplamente conhecido por proporcionar excelentes oportunidades de emprego e crescimento profissional. 
 
 <br>
 
-Neste curso utilizamos o **Portugol** para entender e construir algoritmos. 
+Neste curso utilizamos o **Portugol** para entender os fundamentos da lógica de programação e construir algoritmos. 
 
 <br>
 
@@ -41,7 +41,7 @@ E com ele é possível treinar diversos conceitos de lógica de programação, c
 
 |  Desktop  |  Web | App |
 | --------- | ---- | --- |
-| [![image](https://github.com/user-attachments/assets/2dcb6e4f-bdc2-4f2a-bf91-78038852b0d3)](https://univali-lite.github.io/Portugol-Studio/) | [![image](https://github.com/user-attachments/assets/081180f6-f261-41e4-8586-62e102a32cfb)](https://portugol.dev) | [![image](https://github.com/user-attachments/assets/77bf707c-50bc-41ad-9032-cc7228a148b7)](https://play.google.com/store/apps/details?id=br.erickweil.portugolweb&hl=pt_BR) |
+| [![image](https://github.com/user-attachments/assets/3caccfbe-6551-4646-9876-f65fedaf4d93)](https://univali-lite.github.io/Portugol-Studio/) | [![image](https://github.com/user-attachments/assets/081180f6-f261-41e4-8586-62e102a32cfb)](https://portugol.dev) | [![image](https://github.com/user-attachments/assets/77bf707c-50bc-41ad-9032-cc7228a148b7)](https://play.google.com/store/apps/details?id=br.erickweil.portugolweb&hl=pt_BR) |
 
 <br>
 
@@ -52,13 +52,15 @@ Durante o curso realizamos diversos exercícios que você pode conferir clicando
 
 <br>
 
-| Nº |  Conteúdo  | Link
-|  --   | --         | :--: |
+| Nº    |  Conteúdo  | Link |
+| ----  |  --------  | :--: |
 | 01    |  Representação de Algoritmos | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Representacao_de_Algoritmos) |
 | 02    |  Introdução ao Portugol | [<img src="./Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Introducao_ao_Portugol) |
 | 03    |  Tomada de Decisão | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/3-Tomada_de_Decisao) |
 | 04    |  Estruturas de Repetição  | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao) |
 | 05    |  Vetores e Matrizes | [<img src="./Images/quadrado2.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/5-Vetores_e_Matrizes) |
+| 06    |  Subprogramas | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/6-Subprogramas) |
+| 07    |  Mini Projeto | [<img src="./Images/quadrado1.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/7-Mini_Projeto) |
 
 <br>
 
