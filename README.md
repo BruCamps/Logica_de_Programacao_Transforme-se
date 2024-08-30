@@ -64,6 +64,6 @@ Durante o curso realizamos diversos exercícios que você pode conferir clicando
 
 <br>
 
-### Contribuições são bem-vindas! 🤗
----
-Feito com ❤ por Bruna Campos
+#### Contribuições são bem-vindas! 🤗
+#
+Feito com 💜 por Bru
