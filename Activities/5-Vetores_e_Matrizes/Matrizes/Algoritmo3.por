@@ -28,7 +28,12 @@ programa {
           linha3 = matriz[2]
           soma = matriz[2][0] + matriz[2][1] + matriz[2][2] + matriz[2][3]
 
-        escreva("|\t\t", matriz[linha][coluna], "\t\t")
+        se(matriz[linha][coluna] < 10){ // Condicional para tabulação para números menores que 10 (Opcional)
+          escreva("|\t\t0", matriz[linha][coluna], "\t\t")
+        } 
+        senao{ // Tabulação para qualquer número maior que 10 (Opcional)
+          escreva("|\t\t", matriz[linha][coluna], "\t\t")
+        }
       }
       escreva("|\n")
     }
