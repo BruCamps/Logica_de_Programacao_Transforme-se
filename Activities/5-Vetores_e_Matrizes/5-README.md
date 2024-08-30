@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/2915760f-ece3-4c05-b729-6d2bcf9d2c87
 
 https://github.com/user-attachments/assets/ab3f696e-34bb-4c56-a5d5-e664fd19a445
 
-> Clique aqui para visualizar o [código-fonte](./Vetores/Algoritmo4.por)
+> Clique aqui para visualizar o [código-fonte](./Matrizes/Algoritmo4.por)
 
 <br>
 
