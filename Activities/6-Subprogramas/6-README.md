@@ -14,7 +14,7 @@
   - Imprima o resultado.
 </details>
 
-https://github.com/user-attachments/assets/8cd3de9c-2630-478e-8de4-39247c208065
+https://github.com/user-attachments/assets/8601844b-0f69-4455-b5ab-7fb5722acf83
 
 > Clique aqui para visualizar o [código-fonte](Algoritmo1.por)
 
