@@ -17,7 +17,7 @@ programa {
 
     escreva("\nSubstituição do número -5 por 100:\nVetor A[6] = { ")
     para(i = 0; i <= 5; i++){
-      escreva(A[i], " ")
+      escreva(A[i], " ") // Não adicionei um \n aqui por questões de estética
     }
     escreva("}\n")
   }
