@@ -1,6 +1,8 @@
 # Visualização das Atividades
 > Pré-visualização das atividades feitas em Portugol
 
+<br>
+
 ## Algoritmo 1
 
 <details>
@@ -17,6 +19,8 @@ https://github.com/user-attachments/assets/a820ee64-3411-4226-ac81-b9b272353d95
 
 > Clique aqui para visualizar o [código-fonte](./3-Tomada_de_Decisao/Algoritmo1.por)
 
+<br>
+
 ## Algoritmo 2
 
 <details>
@@ -32,6 +36,8 @@ https://github.com/user-attachments/assets/a820ee64-3411-4226-ac81-b9b272353d95
 https://github.com/user-attachments/assets/505c8379-0c2b-49d1-a7ca-5334ac88575e
 
 > Clique aqui para visualizar o [código-fonte](./3-Tomada_de_Decisao/Algoritmo2.por)
+
+<br>
 
 ## Desafio
 
