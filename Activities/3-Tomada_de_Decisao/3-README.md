@@ -17,7 +17,7 @@
 
 https://github.com/user-attachments/assets/a820ee64-3411-4226-ac81-b9b272353d95
 
-> Clique aqui para visualizar o [código-fonte](./3-Tomada_de_Decisao/Algoritmo1.por)
+> Clique aqui para visualizar o [código-fonte](./Algoritmo1.por)
 
 <br>
 
@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/a820ee64-3411-4226-ac81-b9b272353d95
 
 https://github.com/user-attachments/assets/505c8379-0c2b-49d1-a7ca-5334ac88575e
 
-> Clique aqui para visualizar o [código-fonte](./3-Tomada_de_Decisao/Algoritmo2.por)
+> Clique aqui para visualizar o [código-fonte](./Algoritmo2.por)
 
 <br>
 
@@ -55,4 +55,4 @@ como nos exemplos abaixo:<br>
 
 https://github.com/user-attachments/assets/ed7e3309-e52c-4969-bfac-141186479939
 
-> Clique aqui para visualizar o [código-fonte](./3-Tomada_de_Decisao/Desafio.por)
+> Clique aqui para visualizar o [código-fonte](./Desafio.por)
