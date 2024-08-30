@@ -8,7 +8,7 @@ programa {
     inteiro num
     escreva("\nDigite um número inteiro: ")
     leia(num)
-    escreva("O quadrado do número ", num, " é ", quadrado(num))
+    escreva("O quadrado do número ", num, " é ", quadrado(num), "\n")
   }
 
   funcao inteiro quadrado(inteiro n){
