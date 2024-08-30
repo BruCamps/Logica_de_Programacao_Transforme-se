@@ -8,7 +8,7 @@ programa {
   funcao inicio() {
     real valor, desconto, valorFinal
     
-    escreva("\nVamos jogar?\n\nVocê chuta um valor qualquer em real, e se estiver de acordo com a regra\ndo jogo que é secretapoderá ganhar um cupom de desconto de 5% a 10% em\nnossos produtos na faixa do valor informado.\n\nIMPORTANTE: No lugar da vírgula use o ponto para separar casas decimais! Ex.: 250.50\n\n-> R$ ")
+    escreva("\nVamos jogar?\n\nVocê chuta um valor qualquer em real, e se estiver de acordo com a regra\ndo jogo que é secreta poderá ganhar um cupom de desconto de 5% a 10% em\nnossos produtos na faixa do valor informado.\n\nIMPORTANTE: No lugar da vírgula use o ponto para separar casas decimais! Ex.: 250.50\n\n-> R$ ")
     leia(valor)
 
     limpa()
