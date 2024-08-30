@@ -1,6 +1,8 @@
 # Visualização das Atividades 
 > Pré-visualização das atividades feitas em Portugol
 
+<br>
+
 ## Algoritmo 1
 
 <details>
