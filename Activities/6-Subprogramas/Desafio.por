@@ -3,7 +3,7 @@
 programa {
   funcao inicio() {
     real num
-    escreva("Digite um número: ")
+    escreva("\nDigite um número: ")
     leia(num)
     escreva("\nO resultado de ", num, "! é ", fatorial(num))
   }
