@@ -131,20 +131,20 @@ programa {
 
             // Desvio Condicional que verifica se as respostas estão corretas ou não
             se(respCaixaAlta[i] == respCertas[i]){
-              limpa()
-              escreva("\n — — — — — — — — — — — — — — — —\n|\t\t\t Resposta Certa! OwO \t\t\t|\n|———————————————————————————————|\n")
-              escreva("|\t\t", msgCertaResp[posicao], "|")
-              calculoPontos(i)
-              // u.aguarde(1200)
-              limpa()
+                limpa()
+                escreva("\n — — — — — — — — — — — — — — — —\n|\t\t\t Resposta Certa! OwO \t\t\t|\n|———————————————————————————————|\n")
+                escreva("|\t\t", msgCertaResp[posicao], "|")
+                calculoPontos(i)
+                u.aguarde(1200)
+                limpa()
             }
             senao {
-              limpa()
-              escreva("\n— — — — — — — — — — — — — — — — — — — — — — — — — — -\n|\t\t\t\t\t\t\t  Resposta Errada! T.T \t\t\t\t\t\t\t\t|\n|———————————————————————————————————————————————————|\n")
-              escreva("|", msgErradaResp[posicao], "|")
-              calculoPontos(i)
-              // u.aguarde(1200)
-              limpa()
+                limpa()
+                escreva("\n— — — — — — — — — — — — — — — — — — — — — — — — — — -\n|\t\t\t\t\t\t\t  Resposta Errada! T.T \t\t\t\t\t\t\t\t|\n|———————————————————————————————————————————————————|\n")
+                escreva("|", msgErradaResp[posicao], "|")
+                calculoPontos(i)
+                u.aguarde(1200)
+                limpa()
             }
 
         }
