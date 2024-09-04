@@ -31,8 +31,18 @@ programa {
   cadeia respCertas[10] = {"B", "B", "C", "C", "A", "C", "B", "C", "B", "A"} 
 
   // Vetores das Mensagens de motivação
-  cadeia msgCertaResp[4] = {"\t\t'Boa, gafanhoto!'\t\t\t\t", "\t\t'Wooow! Que D+!'\t\t\t\t", "\t\t'Continue assim!'\t\t\t\t", "\t\t\t'Muito bem!'\t\t\t\t\t"}
-  cadeia msgErradaResp[4] = {"\t\t\t\t\t\t 'Oops... Resposta errada!'\t\t\t\t\t\t  ", "\t\t\t\t'Cada erro é uma chance de aprender!'\t\t\t\t", "\t\t\t'Não desista! A próxima pode ser a certa.'\t\t", "\t 'Mantenha o foco e chegará na resposta certa.'\t  "}
+  cadeia msgCertaResp[4] = {
+    "\t\t'Boa, gafanhoto!'\t\t\t\t", 
+    "\t\t'Wooow! Que D+!'\t\t\t\t", 
+    "\t\t'Continue assim!'\t\t\t\t", 
+    "\t\t\t'Muito bem!'\t\t\t\t\t"
+  }
+  cadeia msgErradaResp[4] = {
+    "\t\t\t\t\t\t 'Oops... Resposta errada!'\t\t\t\t\t\t  ", 
+    "\t\t\t\t'Cada erro é uma chance de aprender!'\t\t\t\t", 
+    "\t\t\t'Não desista! A próxima pode ser a certa.'\t\t", 
+    "\t 'Mantenha o foco e chegará na resposta certa.'\t  "
+  }
 
   // Matriz da Tabela de Respostas (armazena as respostas do usuário e o gabarito)
   cadeia matriz[10][2]
@@ -42,7 +52,6 @@ programa {
 
   // Variável de posição (índice) dos vetores das mensagens de motivação
   inteiro posicao = u.sorteia(0, 3)
-
 
   funcao inicio() {
   	
@@ -75,10 +84,11 @@ programa {
             escreva("\n[ Você saiu do jogo ]\n")
             pare
         }
-   }
+  }
 
   // Exibe uma mensagem e a contagem regressiva para entrar no Jogo
   funcao entradaJogo(){
+
     // Contador para Contagem Regressiva
     inteiro cont
 
@@ -101,56 +111,59 @@ programa {
 
   // Inicia o Jogo
   funcao iniciaJogo(){
-    // índice (posiçõees do vetor)
-        inteiro i
 
-    // Repetição da exibição e verificação de perguntas
-        para(i=0; i < 10; i++){
-            
-            escreva("\n", questoes[i], "\n-> ")
-            leia(respUsuario[i])
+      // índice (posições do vetor)
+      inteiro i
 
-            // Vetor que transforma a letra da resposta em maiúscula
-            respCaixaAlta[i] = tx.caixa_alta(respUsuario[i])
+      // Repetição da exibição e verificação de perguntas
+      para(i=0; i < 10; i++){
+          escreva("\n", questoes[i], "\n-> ")
+          leia(respUsuario[i])
 
-            // Laço de Repetição que não permite outras opçõees além das exibidas nas questões
-            enquanto (tx.numero_caracteres(respCaixaAlta[i]) > 1 ou ((respCaixaAlta[i] != "A") e (respCaixaAlta[i] != "B") e (respCaixaAlta[i] != "C") e (respCaixaAlta[i] != "D"))){ 
-                
-                escreva ("\n[Não há uma alternativa ", respCaixaAlta[i], ". Tente novamente!]\n")
-                u.aguarde(1500)
-                limpa() 
+          // Vetor que transforma a letra da resposta em maiúscula
+          respCaixaAlta[i] = tx.caixa_alta(respUsuario[i])
 
-                // Repete a última pergunta feita
-                escreva("\n", questoes[i], "\n-> ")
-                // Solicita uma resposta do usuário novamente
-                leia(respUsuario[i])
+          // Laço de Repetição que não permite outras opçõees além das exibidas nas questões
+          enquanto (tx.numero_caracteres(respCaixaAlta[i]) > 1 ou 
+            ((respCaixaAlta[i] != "A") e 
+            (respCaixaAlta[i] != "B") e 
+            (respCaixaAlta[i] != "C") e 
+            (respCaixaAlta[i] != "D"))){ 
+              
+              escreva ("\n[Não há uma alternativa ", respCaixaAlta[i], ". Tente novamente!]\n")
+              u.aguarde(1500)
+              limpa() 
 
-                // A variável respCaixaAlta recebe o valor dado anteriormente
-                respCaixaAlta[i] = tx.caixa_alta(respUsuario[i])
-            } 
+              // Repete a última pergunta feita
+              escreva("\n", questoes[i], "\n-> ")
+              // Solicita uma resposta do usuário novamente
+              leia(respUsuario[i])
 
-            // Desvio Condicional que verifica se as respostas estão corretas ou não
-            se(respCaixaAlta[i] == respCertas[i]){
-                limpa()
-                escreva("\n — — — — — — — — — — — — — — — —\n|\t\t\t Resposta Certa! OwO \t\t\t|\n|———————————————————————————————|\n")
-                escreva("|\t\t", msgCertaResp[posicao], "|")
-                calculoPontos(i)
-                u.aguarde(1200)
-                limpa()
-            }
-            senao {
-                limpa()
-                escreva("\n— — — — — — — — — — — — — — — — — — — — — — — — — — -\n|\t\t\t\t\t\t\t  Resposta Errada! T.T \t\t\t\t\t\t\t\t|\n|———————————————————————————————————————————————————|\n")
-                escreva("|", msgErradaResp[posicao], "|")
-                calculoPontos(i)
-                u.aguarde(1200)
-                limpa()
-            }
+              // A variável respCaixaAlta recebe o valor dado anteriormente
+              respCaixaAlta[i] = tx.caixa_alta(respUsuario[i])
+          } 
 
-        }
+          // Desvio Condicional que verifica se as respostas estão corretas ou não
+          se(respCaixaAlta[i] == respCertas[i]){
+              limpa()
+              escreva("\n — — — — — — — — — — — — — — — —\n|\t\t\t Resposta Certa! OwO \t\t\t|\n|———————————————————————————————|\n")
+              escreva("|\t\t", msgCertaResp[posicao], "|")
+              calculoPontos(i)
+              u.aguarde(1200)
+              limpa()
+          }
+          senao {
+              limpa()
+              escreva("\n— — — — — — — — — — — — — — — — — — — — — — — — — — -\n|\t\t\t\t\t\t\t  Resposta Errada! T.T \t\t\t\t\t\t\t\t|\n|———————————————————————————————————————————————————|\n")
+              escreva("|", msgErradaResp[posicao], "|")
+              calculoPontos(i)
+              u.aguarde(1200)
+              limpa()
+          }
+      }
 
-        mensagemFinal()
-        exibeGabarito(i)
+      mensagemFinal()
+      exibeGabarito(i)
   }
 
   // Realiza o cálculo e exibição dos pontos
@@ -173,10 +186,10 @@ programa {
   funcao mensagemFinal(){
     se(pontos >= 6){
       placar()
-      escreva("\n[ Parabéns!'(OwO)' ]\n")
+      escreva("\n[ Parabéns, você conseguiu!'(OwO)' ]\n")
     } senao {
       placar()
-      escreva("\n[ Oh... Não foi dessa vez!'( -__- )' ]\n")
+      escreva("\n[ Não foi dessa vez, tente novamente! (O_O) ]\n")
     }
   }
 
@@ -212,4 +225,4 @@ programa {
     escreva(" — — — — — — — — — — — — — — — — — — —\n")  	
   }
 
-}
+} // Final do Programa
