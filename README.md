@@ -49,6 +49,9 @@ Durante o curso realizamos diversos exercícios que você pode conferir clicando
 
 > Nos arquivos `README`, você encontrará uma breve demonstração de cada código executado no terminal.
 
+> [!WARNING]
+> Todos os códigos foram feitos por mim, então caso deseje utilizar dê os devidos créditos. 😉
+
 <br>
 
 | Nº    |  Conteúdo  | Pasta | README |
