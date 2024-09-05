@@ -48,6 +48,8 @@ E com ele é possível treinar diversos conceitos de lógica de programação, c
 # Exercícios
 Durante o curso realizamos diversos exercícios que você pode conferir clicando nos links abaixo. 
 
+> Nos arquivos `README`, você encontrará uma breve demonstração de cada código executado no terminal.
+
 <br>
 
 | Nº    |  Conteúdo  | Pasta | README |
