@@ -7,7 +7,6 @@
 </div>
 
 
-<br>
 <h1>Lógica de Programação | Transforme-se</h1>
 <br>
 
