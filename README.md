@@ -48,19 +48,17 @@ E com ele é possível treinar diversos conceitos de lógica de programação, c
 # Exercícios
 Durante o curso realizamos diversos exercícios que você pode conferir clicando nos links abaixo. 
 
-> Esses links te redirecionam para as pastas. Mas caso você queira visualizar como os exercícios ficam no terminal, basta procurar o arquivo **`README.md`** de cada pasta.
-
 <br>
 
-| Nº    |  Conteúdo  | Link |
-| ----  |  --------  | :--: |
-| 01    |  Representação de Algoritmos | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Representacao_de_Algoritmos) |
-| 02    |  Introdução ao Portugol | [<img src="./Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Introducao_ao_Portugol) |
-| 03    |  Tomada de Decisão | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/3-Tomada_de_Decisao) |
-| 04    |  Estruturas de Repetição  | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao) |
-| 05    |  Vetores e Matrizes | [<img src="./Images/quadrado2.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/5-Vetores_e_Matrizes) |
-| 06    |  Subprogramas | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/6-Subprogramas) |
-| 07    |  Mini Projeto | [<img src="./Images/quadrado1.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/7-Mini_Projeto) |
+| Nº    |  Conteúdo  | Pasta | README |
+| ----  |  --------  | :--:  |  :--:  |
+| 01    |  Representação de Algoritmos | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/1-Representacao_de_Algoritmos) | [<img src="./Images/quadrado2.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/1-Representacao_de_Algoritmos/1-README.md) |
+| 02    |  Introdução ao Portugol | [<img src="./Images/quadrado2.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/2-Introducao_ao_Portugol) | [<img src="./Images/quadrado3.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/2-Introducao_ao_Portugol/2-README.md) |
+| 03    |  Tomada de Decisão | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/3-Tomada_de_Decisao) | [<img src="./Images/quadrado1.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/3-Tomada_de_Decisao/3-README.md) |
+| 04    |  Estruturas de Repetição  | [<img src="./Images/quadrado1.png" alt="" width="60%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao) | [<img src="./Images/quadrado2.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/4-Estruturas_de_Repeticao/4-README.md) |
+| 05    |  Vetores e Matrizes | [<img src="./Images/quadrado2.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/5-Vetores_e_Matrizes) | [<img src="./Images/quadrado3.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/5-Vetores_e_Matrizes/5-README.md) |
+| 06    |  Subprogramas | [<img src="./Images/quadrado3.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/6-Subprogramas) | [<img src="./Images/quadrado1.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/6-Subprogramas/6-README.md) |
+| 07    |  Mini Projeto | [<img src="./Images/quadrado1.png" alt=""  width="60%" align="center" style="display: flex;"/>](./Activities/7-Mini_Projeto) | [<img src="./Images/quadrado2.png" alt="" width="35%" align="center" style="display: flex;"/>](./Activities/7-Mini_Projeto/7-README.md) |
 
 <br>
 
