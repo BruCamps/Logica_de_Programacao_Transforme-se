@@ -1,10 +1,9 @@
-programa {
-  // Inclusões de bibliotecas e atribui apelidos a elas
-  inclua biblioteca Util --> u
-  inclua biblioteca Texto --> tx
+programa { // Início do programa
 
-  // Variável da Resposta de entrada do jogo
-  caracter opcao
+  // Inclusão de bibliotecas e atribuição de apelidos a elas
+  
+  inclua biblioteca Util --> u      // Varia aleatoriamente as mensagens (exibidas a cada resposta certa ou errada) e executa intervalos em milissegundos
+  inclua biblioteca Texto --> tx   // Coloca a resposta em caixa alta (maiúscula) e conta a quantidade de caracteres (letras) da resposta
 
   // Variáveis das Perguntas
   cadeia perg1 = "1- Como criar um vetor de (Notas) do tipo real com 5 elementos em Portugol?\nA. vetor inteiro notas[5] \t B. real notas[5] \t C. vetor notas:inteiro[5] \t D. vetor notas:real \n", 
@@ -24,13 +23,13 @@ programa {
   // Vetor das respostas do usuário
   cadeia respUsuario[10] 
 
-  // Vetor que coloca a resposta do usuário (caso esteja em letra minúscula) em maiúscula para fins de comparação
+  // Vetor que coloca a resposta do usuário em caixa alta (maiúscula)
   cadeia respCaixaAlta[10]   
 
   // Vetor do Gabarito (respostas da 1ª até a 10ª questão respectivamente)
   cadeia respCertas[10] = {"B", "B", "C", "C", "A", "C", "B", "C", "B", "A"} 
 
-  // Vetores das Mensagens de motivação
+  // Vetores das Mensagens exibidas a cada resposta certa ou errada
   cadeia msgCertaResp[4] = {
     "\t\t'Boa, gafanhoto!'\t\t\t\t", 
     "\t\t'Wooow! Que D+!'\t\t\t\t", 
@@ -50,85 +49,87 @@ programa {
   // Variável dos Pontos (armazena os pontos de acerto)
   inteiro pontos = 0
 
-  // Variável de posição (índice) dos vetores das mensagens de motivação
-  inteiro posicao = u.sorteia(0, 3)
-
   funcao inicio() {
-  	
-        // Título "Jogo de Perguntas" feito no site https://www.asciiart.eu/text-to-ascii-art
-        escreva("     _                         _  \n",           
-        "    | | ___   __ _  ___     __| | ___\n",       
-        " _  | |/ _ \\ / _` |/ _ \\   / _` |/ _ \\ \n",      
-        "| |_| | (_) | (_| | (_) | | (_| |  __/ \n",      
-        " \\___/ \\___/ \\__, |\\___/   \\__,_|\\___|  \n",     
-        "|  _ \\ ___ _ |___/ _ _   _ _ __ | |_ __ _ ___ \n",
-        "| |_) / _ \\ '__/ _` | | | | '_ \\| __/ _` / __| \n",
-        "|  __/  __/ | | (_| | |_| | | | | || (_| \\__ \\ \n",
-        "|_|   \\___|_|  \\__, |\\__,_|_| |_|\\__\\__,_|___/ \n",
-        "               |___/                          \n\n")
-
-        // Mensagens de introdução do Jogo
-        escreva("Bem-vindo(a) estudante ao jogo de perguntas do Transforme-se!\n")
-        escreva("Digite I ou i para iniciar -> ")
-        
-        // Recebe a letra que o usuário digitar
-        leia(opcao)
-
-        // Desvio Condicional que dá início ou não ao jogo
-        escolha(opcao){
-          caso 'I':
-          caso 'i':
-            entradaJogo()
-            pare
-          caso contrario:
-            escreva("\n[ Você saiu do jogo ]\n")
-            pare
-        }
+  	menuPrincipal()
   }
 
-  // Exibe uma mensagem e a contagem regressiva para entrar no Jogo
-  funcao entradaJogo(){
+  // Exibe o menu principal do jogo e executa a contagem regressiva para entrar no Jogo se o usuário
+  funcao menuPrincipal(){
+
+    // Variável de entrada do jogo (deve receber I ou i para entrar)
+    caracter opcao
 
     // Contador para Contagem Regressiva
     inteiro cont
 
-    escreva("\n[ Você está entrando no jogo ]\nEm ")
+    // Título "Jogo de Perguntas" feito no site https://www.asciiart.eu/text-to-ascii-art
+    escreva("     _                         _  \n",           
+    "    | | ___   __ _  ___     __| | ___\n",       
+    " _  | |/ _ \\ / _` |/ _ \\   / _` |/ _ \\ \n",      
+    "| |_| | (_) | (_| | (_) | | (_| |  __/ \n",      
+    " \\___/ \\___/ \\__, |\\___/   \\__,_|\\___|  \n",     
+    "|  _ \\ ___ _ |___/ _ _   _ _ __ | |_ __ _ ___ \n",
+    "| |_) / _ \\ '__/ _` | | | | '_ \\| __/ _` / __| \n",
+    "|  __/  __/ | | (_| | |_| | | | | || (_| \\__ \\ \n",
+    "|_|   \\___|_|  \\__, |\\__,_|_| |_|\\__\\__,_|___/ \n",
+    "               |___/                          \n\n")
 
-    // Laço de Repetição para Contagem Regressiva
-    para(cont = 3; cont >= 1; cont--){
-        escreva(cont)
-        u.aguarde(800)
-        escreva(".")
-        u.aguarde(800)
-        escreva(".")
-        u.aguarde(800)
-        escreva(".")
-        u.aguarde(800)
+    // Mensagens de introdução do Jogo
+    escreva("Bem-vindo(a) estudante ao jogo de perguntas do Transforme-se!\n")
+    escreva("Digite I ou i para iniciar -> ")
+    
+    // Recebe a letra que o usuário digitar
+    leia(opcao)
+
+    // Desvio Condicional que dá início ou não ao jogo
+    escolha(opcao){
+      caso 'I':
+      caso 'i':
+
+        // Exibe mensagem
+        escreva("\n[ Você está entrando no jogo ]\n\nEm ")
+
+        // Laço de Repetição para Contagem Regressiva
+        para(cont = 3; cont >= 1; cont--){
+            escreva(cont) u.aguarde(400)
+            escreva(".")  u.aguarde(400)
+            escreva(".")  u.aguarde(400)
+            escreva(".")  u.aguarde(400)
+        }
+
+        // Limpa o terminal e inicia o jogo
+        limpa()
+        iniciaJogo()
+        pare
+
+      caso contrario:
+        escreva("\n[ Você saiu do jogo ]\n")
+        pare
     }
-    limpa()
-    iniciaJogo()
   }
 
-  // Inicia o Jogo
+  // Inicia e Executa o Jogo
   funcao iniciaJogo(){
 
-      // índice (posições do vetor)
+      // índice (posição de um vetor)
       inteiro i
 
-      // Repetição da exibição e verificação de perguntas
+      // Repetição da exibição de perguntas
       para(i=0; i < 10; i++){
+
+          // Variável que muda aleatoriamente as mensagens retornando um número que equivale a posição do vetor de mensagem
+          inteiro posicao = u.sorteia(0, 3)
+
+          // Exibe a questão
           escreva("\n", questoes[i], "\n-> ")
+          // Solicita uma resposta do usuário
           leia(respUsuario[i])
 
           // Vetor que transforma a letra da resposta em maiúscula
           respCaixaAlta[i] = tx.caixa_alta(respUsuario[i])
 
-          // Laço de Repetição que não permite outras opçõees além das exibidas nas questões
-          enquanto (tx.numero_caracteres(respCaixaAlta[i]) > 1 ou 
-            ((respCaixaAlta[i] != "A") e 
-            (respCaixaAlta[i] != "B") e 
-            (respCaixaAlta[i] != "C") e 
-            (respCaixaAlta[i] != "D"))){ 
+          // Laço de Repetição que garante que o usuário não possa digitar opções além das exibidas e mais do que 1 letra
+          enquanto (tx.numero_caracteres(respCaixaAlta[i]) > 1 ou ((respCaixaAlta[i] != "A") e (respCaixaAlta[i] != "B") e (respCaixaAlta[i] != "C") e (respCaixaAlta[i] != "D"))){ 
               
               escreva ("\n[Não há uma alternativa ", respCaixaAlta[i], ". Tente novamente!]\n")
               u.aguarde(1500)
@@ -142,6 +143,7 @@ programa {
               // A variável respCaixaAlta recebe o valor dado anteriormente
               respCaixaAlta[i] = tx.caixa_alta(respUsuario[i])
           } 
+
 
           // Desvio Condicional que verifica se as respostas estão corretas ou não
           se(respCaixaAlta[i] == respCertas[i]){
@@ -162,55 +164,63 @@ programa {
           }
       }
 
+      // Após exibir as 10 questões exibe a mensagem final e a tabela de respostas
       mensagemFinal()
       exibeGabarito(i)
   }
 
-  // Realiza o cálculo e exibição dos pontos
+  // Realiza o cálculo e a exibição dos pontos
   funcao calculoPontos(inteiro i){
 
+    // Exibe pontos para resposta certa
     se((respCaixaAlta[i] == respCertas[i]) e (pontos == 0)){
         pontos=pontos+1 
         escreva("\n|\t\tPontuação Atual: ", pontos, " ponto \t\t|\n — — — — — — — — — — — — — — — —\n\n")
     } senao se((respCaixaAlta[i] == respCertas[i]) e (pontos >= 1)){
         pontos=pontos+1 
         escreva("\n|\t\tPontuação Atual: ", pontos, " pontos\t\t|\n — — — — — — — — — — — — — — — —\n\n")
-    } senao se((respCaixaAlta[i] != respCertas[i]) e (pontos == 1)){
+    } 
+    // Exibe pontos para resposta errada
+    senao se((respCaixaAlta[i] != respCertas[i]) e (pontos == 1)){
         escreva("\n|\t\t\t\t\t\t\tPontuação Atual: ", pontos, " ponto \t\t\t\t\t\t\t|\n — — — — — — — — — — — — — — — — — — — — — — — — — —\n\n")
     } senao{
         escreva("\n|\t\t\t\t\t\t\tPontuação Atual: ", pontos, " pontos\t\t\t\t\t\t\t|\n — — — — — — — — — — — — — — — — — — — — — — — — — —\n\n")
     }
   }
 
-  // Exibe a Mensagem Final
+  // Exibe a Mensagem Final dependendo da quantidade de pontos obtida e a pontuação final
   funcao mensagemFinal(){
+    pontuacaoFinal()
     se(pontos >= 6){
-      placar()
       escreva("\n[ Parabéns, você conseguiu!'(OwO)' ]\n")
     } senao {
-      placar()
       escreva("\n[ Não foi dessa vez, tente novamente! (O_O) ]\n")
     }
   }
 
-  // Exibe a Pontuação do Usuário (0-10)
-  funcao placar(){
+  // Exibe a Pontuação do Usuário (de 0 a 10) ao final do jogo
+  funcao pontuacaoFinal(){
     escreva("\t— — — — — — — — — — — — — — — — — —\n|\t\t\t\tP O N T U A Ç Ã O : ")
-    se(pontos == 10 ){
+    se(pontos == 10){
       escreva(pontos, "\t\t\t\t|\n\t— — — — — — — — — — — — — — — — — — —\n")
     } senao {
       escreva(pontos, "\t\t\t\t\t|\n\t— — — — — — — — — — — — — — — — — —\n")
     }
   }
 
-  // Exibe o gabarito (respostas certas) e respostas do Usuário
+  // Exibe o gabarito (respostas certas) e as respostas do Usuário
   funcao exibeGabarito(inteiro i) {
     escreva("\n — — — — — — — — — — — — — — — — — — —\n|\t Questões  |\tRespostas\t|\tGabarito\t|\n")
     
+    // Laço de repetição que exibe gabarito e respostas
     para(i = 0; i <= 9; i++){
+
+        // A primeira coluna da matriz recebe as respostas do usuário
         matriz[i][0] = respUsuario[i]
+        // A segunda coluna da matriz recebe as respostas certas
         matriz[i][1] = respCertas[i]
         
+        // Desvio condicional que construi a tabela de respostas e adiciona um 0 antes das questões menores que 10
         se(i < 9){
           escreva("|\t\t\t0", i+1, "\t\t |\t\t\t", respCaixaAlta[i])
           escreva("\t\t\t|\t\t\t", respCertas[i])
@@ -219,7 +229,7 @@ programa {
           escreva("\t\t\t|\t\t\t", respCertas[i])
         }
 
-      escreva("\t\t\t|\n")
+        escreva("\t\t\t|\n")
     }
 
     escreva(" — — — — — — — — — — — — — — — — — — —\n")  	
