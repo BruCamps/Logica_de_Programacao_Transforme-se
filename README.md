@@ -47,10 +47,11 @@ E com ele é possível treinar diversos conceitos de lógica de programação, c
 # Exercícios
 Durante o curso realizamos diversos exercícios que você pode conferir clicando nos links abaixo. 
 
-> Nos arquivos `README`, você encontrará uma breve demonstração de cada código executado no terminal.
-
 > [!WARNING]
-> Todos os códigos foram feitos por mim, então caso deseje utilizar dê os devidos créditos. 😉
+> Todos os códigos foram feitos por mim, então caso deseje utilizá-los dê os devidos créditos. 😉
+
+> [!TIP]
+> Nos arquivos `README`, você encontrará uma breve demonstração de cada código executado no terminal.
 
 <br>
 
